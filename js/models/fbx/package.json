@@ -1,0 +1,30 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "This repository contains a minimal working example of a multiplayer browser game. Read about it [here](https://medium.com/@omgimanerd/how-to-build-a-multiplayer-browser-game-4a793818c29b#.mea2a1qc6).",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "current-device": "^0.9.1",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "jquery": "^3.4.1",
+    "socket.io": "^2.2.0",
+    "three-orbit-controls": "^82.1.0",
+    "ws": "^7.1.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "^7.7.7",
+    "@babel/node": "^7.7.7",
+    "@babel/preset-env": "^7.7.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
